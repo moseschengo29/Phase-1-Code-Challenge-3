@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <h2>FLATDANGO</h2>
+        <ul class="nav"></ul>
+      </div>
+
+      <div class="main"></div>
+
+      <div class="modal hidden">
+        <button class="btn--close-modal">&times;</button>
+        <h2 class="modal__header">
+          Get your movie ticket <br />
+          in just a click of a button
+        </h2>
+        <form class="modal__form">
+          <label>First Name</label>
+          <input type="text" required />
+          <label>Last Name</label>
+          <input type="text" required />
+          <label>Email Address</label>
+          <input type="email" required />
+          <label>Date</label>
+          <input type="date" required />
+          <button class="btn">Book Now &rarr;</button>
+        </form>
+      </div>
+      <div class="overlay hidden"></div>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
